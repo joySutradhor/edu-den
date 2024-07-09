@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gucina-Regular';
+  src: url('/Fonts/Gucina-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gucina-Medium';
+  src: url('/Fonts/Gucina-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gucina-SemiBold';
+  src: url('/Fonts/Gucina-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Gucina-Bold';
+  src: url('/Fonts/Gucina-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+@layer utilities {
+
+  .leftRightGap {
+    @apply 2xl:px-[150px]
+  }
+
+  .sectionTop {
+    @apply 2xl:pt-[200px]
+  }
+
+  .paratext {
+    @apply 2xl:text-[14px] 2xl:leading-[21px] text-white font-Lexend font-normal
+  }
+
+  .commonPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] font-Lexend font-medium text-white
+  }
+
+  .headingTitle {
+    @apply 2xl:text-[70px] 2xl:leading-[80.5px]
+    /* -------- */
+    font-Gucina-Bold text-white
+  }
+
+  .textUderline {
+    @apply underline decoration-[#A8FF57]
+  }
+
+  .commonBtn {
+    @apply 2xl:py-[8px] 2xl:px-[20px] 2xl:text-[20px] 2xl:leading-[30px] font-Gucina-SemiBold 2xl:rounded-[50px]
+    /* =========== */
+    bg-[#A8FF57]
+  }
+
+  .colorSmallTitle {
+    @apply 2xl:text-[20px] 2xl:leading-[23px]
+    /* ========== */
+    font-Gucina-Bold text-[#A8FF57]
+  }
+
+  .lineInnerText {
+    @apply 2xl:text-[20px] 2xl:leading-[23px] font-Gucina-Bold text-[#A8FF57]
+  }
+
+
+ 
+  /* ======================= nav section  styles  syteles here ============= */
+  .navLogo{
+    @apply 2xl:w-[207px] 2xl:h-[55px]
+  }
+
+  .headerMenu{
+    @apply 2xl:text-[20px] 2xl:leading-[30px] font-Gucina-SemiBold text-white
+  }
+  .headerEnrollBtn{
+    @apply 2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[19px] 
+
+    /* ============= */
+    font-Gucina-SemiBold  rounded-full bg-[#A8FF57]
+  }
+
+
+
+  /* ======================= hero section  styles  syteles here ============= */
+  .wellcomeBtn{
+    @apply 2xl:text-[20px] 2xl:leading-[30px] 2xl:px-[18px] 2xl:py-[10px] 2xl:mb-[25px] 2xl:rounded-[10px]
+    /* ============= */
+    font-Gucina-Medium text-[#A8FF57] border 
+  }
+  .heroTitle{
+    @apply 2xl:text-[80px] 2xl:leading-[92px]
+    /* ======== */
+    font-Gucina-Bold text-white
+  }
+  .heroparagraph{
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 2xl:pt-[25px] 2xl:pb-[35px]
+
+    /* ============= */
+    font-Lexend font-medium text-white
+  }
+  .discoverBtn{
+    @apply 2xl:text-[20px] leading-[30px] 2xl:py-[8px] 2xl:px-[19px]
+    /* ===== */
+    font-Gucina-SemiBold text-[#010101] bg-[#A8FF57] rounded-full
+  }
+
+  .followText{
+    @apply 2xl:text-[20px] 2xl:leading-[20px] font-Gucina-Medium 2xl:mb-[35px]
+  }
+  .herosocailIcon{
+    @apply 2xl:text-[20px] 
+  }
+  /* .heroSocailParent{
+    @apply 2xl:size-[26px] rounded-full bg-[#101010] flex justify-center items-center 
+  } */
+
+  /* ======================= about us  styles  syteles here ============= */
+  .readMoreBtn{
+    @apply 2xl:text-[20px] 2xl:leading-[30px] 2xl:gap-x-[10px] 2xl:py-[8px] 2xl:px-[19px]
+    /* ====== */
+    flex justify-between items-center font-Gucina-SemiBold text-white border border-[#A8FF57] rounded-full
+  }
+
+ .aboutpara{
+  @apply 2xl:text-[18px] 2xl:leading-[27px] font-Lexend font-medium text-white
+ }
+
+
+
+  /* ======================= popular categories  styles  syteles here ============= */
+  .popularTitle{
+    @apply 2xl:text-[30px] 2xl:leading-[34px] font-Gucina-Bold text-white
+  }
+  .popularPara{
+    @apply 2xl:text-[14px] 2xl:leading-[21px] 2xl:pt-[15px] 2xl:pb-[50px]
+    /* ========= */
+    font-Lexend font-normal text-white text-center
+  }
+  .popularTitle:first-of-type {
+    color: black;
+   
+}
+
+  /* ======================= trending course styles  syteles here ============= */
+  .trendingHeadingPara{
+    @apply 2xl:text-[18px] 2xl:leading-[27px]
+    
+    /* ========== */
+    font-Lexend font-medium text-white
+  }
+  .trendingCardTile{
+    @apply 2xl:text-[35px] 2xl:leading-[40.5px] 2xl:pb-[25px]
+    /* ========= */
+    font-Gucina-Bold text-white
+  }
+
+
+
+
+  /* ======================= Our Partner styles  syteles here ============= */
+  .lineParent {
+    @apply flex justify-center items-center 2xl:space-x-[10px]
+  }
+
+  .leftLine {
+    @apply 2xl:h-[1px] 2xl:w-[82px] bg-white
+  }
+
+  .partnerImgParent {
+    @apply flex justify-between items-center
+  }
+
+  .ethicaldenpartner {
+    @apply 2xl:w-[323px] 2xl:h-[62px]
+  }
+
+  .fowziMediapartner {
+    @apply 2xl:w-[328px] 2xl:h-[62px]
+  }
+
+  .randoumusePartner {
+    @apply 2xl:w-[207px] 2xl:h-[122px]
+  }
+
+  .intelectsPartner {
+    @apply 2xl:w-[273px] 2xl:h-[124px]
+  }
+
+ /* ======================= all courses styles  syteles here ============= */
+
+
+  .titleSubHeadingEdited {
+    @apply 2xl:text-[20px] 2xl:leading-[30px]
+    /* -------Common Styles ------ */
+    text-white bg-transparent font-Gucina-SemiBold;
+  }
+
+
+  .courseCardParent {
+    @apply 2xl:pt-[80px] 2xl:gap-x-[26px] 2xl:gap-y-[50px]
+    /* ======== */
+    grid grid-cols-4
+  }
+
+  .titleIconParent {
+    @apply 2xl:pb-[25px] 2xl:pt-[15px]
+    /* ============== */
+    flex justify-between items-center
+  }
+
+  .courseCardTitle {
+    @apply 2xl:text-[20px] 2xl:leading-[23px] 2xl:py-[5px] 2xl:px-[10px] 2xl:rounded-[50px]
+    /* ============ */
+    font-Gucina-Bold text-[#A8FF57] bg-[#010101]
+  }
+
+  .courseCardIcon {
+    @apply 2xl:text-[22px] text-[#FF8A00]
+  }
+
+  .courseSubtitle {
+    @apply 2xl:text-[30px] 2xl:leading-[34.5px]
+    /* ========= */
+    font-Gucina-Bold
+  }
+
+  .courseShortDes {
+    @apply 2xl:text-[14px] 2xl:leading-[21px] 2xl:pt-[15px] 2xl:pb-[22px]
+    /* ===== */
+    font-Lexend font-normal text-[#010101]
+  }
+
+  .courseFooterLikes {
+    @apply 2xl:text-[14px] 2xl:leading-[16px] 2xl:gap-x-[5px]
+    /* ========== */
+    font-Lexend font-light flex items-center
+  }
+
+  .footerLikesIcon {
+    @apply 2xl:text-[20px]
+  }
+
+  .courseCardFooterParent {
+    @apply 2xl:pb-[15px] 2xl:pt-[15px]
+    /* ============ */
+    flex justify-between items-center border-[#010101] border-t-[1px]
+  }
+
+  .priceParent {
+    @apply 2xl:size-[102px] 2xl:mt-[-51px]
+    /* -------------- */
+    flex justify-center items-center rounded-full bg-[#010101]
+  }
+
+  .courseCardPrice {
+    @apply 2xl:text-[35px] 2xl:leading-[40.25px]
+    /* ========= */
+    text-[#A8FF57] font-Gucina-Bold
+  }
+
+  /*========= card hover styeles======== */
+  .hoverCardTitleReviewParent {
+    @apply 2xl:pb-[35px]
+    /* ------ */
+    flex justify-between items-center
+  }
+
+  .hoverCardSubtitle{
+    @apply 2xl:text-[30px] 2xl:leading-[34.5px] 2xl:pb-[12px]
+    /* ===== */
+    font-Gucina-Bold text-[#010101]
+  }
+  .hoverCardParaGraph{
+    @apply 2xl:text-[14px] 2xl:leading-[21px] 2xl:pb-[39px]
+    /* ===== */
+    font-Lexend font-normal text-[#010101]
+  }
+  .enrollNow{
+    @apply 2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[18px]
+    /* ============ */
+    font-Gucina-SemiBold text-[#A8FF57] bg-[#010101] rounded-full
+  }
+
+  /* ======================= event styles  syteles here ============= */
+
+  .eventCardTitle {
+    @apply 2xl:text-[30px] 2xl:leading-[34.5px] 2xl:px-[15%] font-Gucina-Bold
+  }
+
+  .eventCardPara {
+    @apply 2xl:text-[14px] 2xl:leading-[21px] 2xl:px-[7%] 2xl:pt-[15px] 2xl:pb-[40px] font-Lexend font-normal
+  }
+
+  .timeDate {
+    @apply 2xl:text-[14px] 2xl:leading-[16px] 2xl:gap-x-[5px] flex justify-center items-center text-white
+  }
+
+
+  /* ======================= testimonial  syteles here ============= */
+  .testimonialText {
+    @apply 2xl:text-[30px] 2xl:leading-[34px] 2xl:pb-[25px]
+    /* ============= */
+    text-[#A8FF57] font-Gucina-Bold
+  }
+
+  .testiominalParaText {
+    @apply 2xl:text-[18px] 2xl:leading-[20px] 2xl:pt-[25px] 2xl:pb-[35px]
+    /* =========== */
+    font-normal font-Lexend text-white
+  }
+
+  .quoteIcon {
+    @apply 2xl:text-[50px]
+  }
+
+  .reviewIcon {
+    @apply 2xl:text-[30px] text-[#FF8A00]
+  }
+
+  .authorImg {
+    @apply 2xl:size-[50px]
+  }
+
+  .tesCardFooterParent {
+    @apply flex items-center 2xl:space-x-[15px]
+  }
+
+  .tesAuthorName {
+    @apply 2xl:text-[20px] 2xl:leading-[23px] text-[#A8FF57] font-Gucina-Bold
+  }
+
+  .testAuthorDes {
+    @apply 2xl:text-[10px] 2xl:leading-[11.5px] font-Lexend font-normal
+  }
+
+  /* ======================= Nedd help  syteles here ============= */
+  .helpParent {
+    @apply 2xl:h-[315px] grid grid-cols-12 justify-between items-center
+  }
+
+  .helpParaText {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 2xl:pt-[15px] font-Lexend font-medium text-white
+  }
+
+  /* ======================= faq  syteles here ============= */
+  .accordianHeadText {
+    @apply 2xl:text-[20px] 2xl:leading-[23px]
+    /* ========== */
+    font-Gucina-Bold text-white
+  }
+
+  /* accordianHeadText */
+  .accordianMainParent {
+    @apply 2xl:p-[25px] 2xl:rounded-[20px]
+    /* ============== */
+    bg-[#1a1a1a]
+  }
+
+  .accordianSingleParent {
+    @apply flex justify-between items-center 2xl:pb-[15px]
+  }
+
+  .accordianIcon {
+    @apply text-white text-[30px]
+  }
+
+  .faqSideParent {
+    @apply flex justify-center items-center 2xl:rounded-[20px]
+  }
+
+  .faqTitle {
+    @apply 2xl:text-[50px] 2xl:leading-[50px]
+    /* =========== */
+    font-Gucina-Bold text-white
+  }
+
+  .faqSideContentParent {
+    @apply 2xl:py-[35px]
+  }
+
+  .faqParaText {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 2xl:pt-[25px] 2xl:px-[25px] font-Lexend font-medium text-white
+  }
+
+
+
+
+  /* ======================= footer syteles here ============= */
+  .footerLogo {
+    @apply 2xl:h-[55px] w-[207px]
+  }
+
+  .socailParents {
+    @apply flex space-x-[8px]
+  }
+
+  .iconParent {
+    @apply 2xl:h-[28px] 2xl:w-[28px] 2xl:p-[10px] 2xl:space-x-[10px]
+    /* --------- */
+
+    flex justify-center items-center bg-[#A8FF57] rounded-full
+  }
+
+  .socailIcons {
+    @apply 2xl:text-[30px]
+    /* -------------- */
+    text-black
+  }
+
+  .footerTitle {
+    @apply 2xl:text-[20px] 2xl:leading-[30px] 2xl:pb-[21px]
+    /* -----  */
+    font-Gucina-Bold text-white
+  }
+
+
+  .footermenuSingle {
+    @apply flex items-center text-[#A8FF57] text-[20px]
+  }
+
+  .footerMenu {
+    @apply 2xl:text-[14px] 2xl:leading-[21px]
+    /* ------------ */
+    text-white font-Lexend font-bold
+  }
+
+  .footermenuSingleLearning {
+    @apply flex items-center 2xl:space-x-[10px]
+  }
+
+  .quickParent {
+    @apply 2xl:space-y-[10px]
+  }
+
+  .copyright {
+    @apply 2xl:text-[18px] 2xl:leading-[27px]
+    /* ----------- */
+    text-white font-Lexend font-light
+  }
+}

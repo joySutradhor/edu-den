@@ -1,0 +1,99 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+   
+}
+
+.slide-item {
+    position: relative;
+    text-align: center;
+}
+
+.slide-image {
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 46px;
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.slide-content h2 {
+    color: #a3d44f;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.slide-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.slide-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.discover-btn {
+    padding: 10px 20px;
+    background-color: #a3d44f;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arrow-button-large-gallary,
+.arrow-button-large-gallary2 {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.arrow-button-large-gallary {
+    left: 15%;
+    color: white;
+}
+
+.arrow-button-large-gallary2 {
+    right: 13.5%;
+    color: white;
+}
+.slide-image-container {
+    position: relative;
+    width: 100%;
+    padding-left: 46px;
+    border-radius: 20px;
+    overflow: hidden; /* Ensures that the border-radius applies to the overlay as well */
+}
+
+.slide-image {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+/* The overlay itself */
+.slide-image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+    border-radius: 20px; /* Ensures that the overlay matches the border-radius of the image */
+    pointer-events: none; /* Allows clicking through the overlay to the image */
+}

@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Artificial Intelligence Bootcamp",
+      "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+      "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1718969641/Edu-den/event1_xxz886.png",
+      "date": "2024-07-15",
+      "time": "1hr, 24m"
+    },
+    {
+      "id": 2,
+      "title": "Cybersecurity Mastery Bootcamp",
+      "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+      "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1718969641/Edu-den/event2_gpfpm9.png",
+      "date": "2024-08-20",
+      "time": "1hr, 24m"
+    },
+    {
+      "id": 3,
+      "title": "Android App Development Bootcamp",
+      "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+      "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1718969640/Edu-den/event3_z5f1r4.png",
+      "date": "2024-09-05",
+      "time": "1hr, 24m"
+    },
+    {
+      "id": 4,
+      "title": "Database Management",
+      "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+      "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1718969640/Edu-den/event4_hbjqph.png",
+      "date": "2024-10-10",
+      "time": "1hr, 24m"
+    },
+    {
+      "id": 5,
+      "title": "Database Management",
+      "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+      "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1718969640/Edu-den/event5_wv7fat.png",
+      "date": "2024-11-22",
+      "time": "1hr, 24m"
+    },
+    {
+      "id": 6,
+      "title": "Database Management",
+      "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+      "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1718969639/Edu-den/event6_fzygri.png",
+      "date": "2024-12-01",
+      "time": "1hr, 24m"
+    }
+  ]
+  

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Cyber Security",
+        "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+        "icon": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719114626/Edu-den/cyber_fbfwix.png",
+        "line": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719111028/Edu-den/Line_18_jwhr5w.png"
+    },
+    {
+        "id": 2,
+        "title": "UI/UX Design",
+        "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+        "icon": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719114625/Edu-den/ui_wcp5sj.png",
+        "line": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719112990/Edu-den/Line_16_xf2yt7.png"
+    },
+    {
+        "id": 3,
+        "title": "Web Development",
+        "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+        "icon": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719114624/Edu-den/web_b5vueb.png",
+        "line": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719112990/Edu-den/Line_16_xf2yt7.png"
+    },
+    {
+        "id": 4,
+        "title": "Graphic Design",
+        "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+        "icon": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719114620/Edu-den/graphics_hs7qsm.png",
+        "line": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719112990/Edu-den/Line_16_xf2yt7.png"
+    },
+    {
+        "id": 5,
+        "title": "Mobile App Development",
+        "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+        "icon": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719114619/Edu-den/mobile_led9sx.png",
+        "line": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719112990/Edu-den/Line_16_xf2yt7.png"
+    },
+    {
+        "id": 6,
+        "title": "Programming Languages",
+        "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+        "icon": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719114619/Edu-den/programming_yiaazm.png",
+        "line": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719112990/Edu-den/Line_16_xf2yt7.png"
+    },
+    {
+        "id": 7,
+        "title": "Data Science and AI",
+        "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+        "icon": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719114619/Edu-den/data_wun5yo.png",
+        "line": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719112990/Edu-den/Line_16_xf2yt7.png"
+    },
+    {
+        "id": 8,
+        "title": "Database Management",
+        "description": "Fermentum fusce himenaeos neque condimentum maecenas vitae congue iaculis inceptos ullamcorper habitasse",
+        "icon": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719114619/Edu-den/database_doeev6.png",
+        "line": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719112990/Edu-den/Line_16_xf2yt7.png"
+    }
+]

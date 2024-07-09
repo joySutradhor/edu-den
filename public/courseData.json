@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "price": "120$",
+        "title": "Cyber Security",
+        "review": 4,
+        "subtitle": "UI/UX Design for Web and Mobile for Kids",
+        "short_description": "we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "long_description": "we're your one-stop destination for unlocking your potential and conquering the digital. we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719104922/Edu-den/three_ns2z8y.png",
+        "time": "36hr",
+        "like": 25,
+        "comment": "2.5k"
+    },
+    {
+        "id": 2,
+        "price": "120$",
+        "title": "Cyber Security",
+        "review": 4,
+        "subtitle": "Introduce  Graphic Design for Beginners",
+        "short_description": "we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "long_description": "we're your one-stop destination for unlocking your potential and conquering the digital. we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719104922/Edu-den/one_hqbzaf.png",
+        "time": "11:00 AM",
+        "like": 200,
+        "comment": 58
+    },
+    {
+        "id": 3,
+        "price": "120$",
+        "title": "Cyber Security",
+        "review": 4,
+        "subtitle": "Introduction to Python Programming",
+        "short_description": "we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "long_description": "we're your one-stop destination for unlocking your potential and conquering the digital. we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719104922/Edu-den/three_ns2z8y.png",
+        "time": "12:00 PM",
+        "like": 180,
+        "comment": 47
+    },
+    {
+        "id": 4,
+        "price": "120$",
+        "title": "Cyber Security",
+        "review": 4,
+        "subtitle": "Data Science and Machine Learning",
+        "short_description": "we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "long_description": "we're your one-stop destination for unlocking your potential and conquering the digital. we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719104922/Edu-den/two_sbpywz.png",
+        "time": "1:00 PM",
+        "like": 250,
+        "comment": 65
+    },
+    {
+        "id": 5,
+        "price": "120$",
+        "title": "Cyber Security",
+        "review": 4,
+        "subtitle": "Ethical Hacking and Penetration Testing",
+        "short_description": "we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "long_description": "we're your one-stop destination for unlocking your potential and conquering the digital. we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719104922/Edu-den/three_ns2z8y.png",
+        "time": "2:00 PM",
+        "like": 300,
+        "comment": 89
+    },
+    {
+        "id": 6,
+        "price": "120$",
+        "title": "Cyber Security",
+        "review": 4,
+        "subtitle": "Network Administration (CCNA)",
+        "short_description": "we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "long_description": "we're your one-stop destination for unlocking your potential and conquering the digital. we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719104922/Edu-den/two_sbpywz.png",
+        "time": "3:00 PM",
+        "like": 150,
+        "comment": 38
+    },
+    {
+        "id": 7,
+        "price": "120$",
+        "title": "Cyber Security",
+        "review": 4,
+        "subtitle": "Popular course in Web Development ",
+        "short_description": "we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "long_description": "we're your one-stop destination for unlocking your potential and conquering the digital. we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719104922/Edu-den/one_hqbzaf.png",
+        "time": "4:00 PM",
+        "like": 110,
+        "comment": 25
+    },
+    {
+        "id": 8,
+        "price": "120$",
+        "title": "Cyber Security",
+        "review": 4,
+        "subtitle": "DevOps and Continuous",
+        "short_description": "we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "long_description": "we're your one-stop destination for unlocking your potential and conquering the digital. we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.",
+        "img": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1719104922/Edu-den/two_sbpywz.png",
+        "time": "5:00 PM",
+        "like": 220,
+        "comment": 72
+        
+    }
+]
